@@ -38,3 +38,65 @@ nav img {
   height: 24px;
   width: 24px;
 }
+
+section {
+  padding: 25px;
+}
+
+.card {
+  display: flex;
+}
+
+.card--image {
+  border-radius: 10px;
+  width: 140px;
+  height: 190px;
+}
+
+.card--gps {
+  margin-right: 5px;
+}
+
+.card--title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 2px 0 15px 0;
+}
+
+.card--location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card--maps {
+  font-weight: 300;
+
+  font-size: 11px;
+  color: #918e9b;
+}
+
+.card--about {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.card--dates {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.card--country {
+  letter-spacing: 1px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.card--description {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
